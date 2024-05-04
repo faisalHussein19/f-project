@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/routes/event-routes.js", "src/app/api/auth/[...nextauth]/route.tsx", "src/app/api/auth/[...nextauth]/route.ts", "src/app/configMongodb/database.jsx", "src/components/EngineOilSelector3.tsx", "src/components/AppContext.jsx", "src/components/AddressInputs.jsx", "src/components/BatteriesSelector1.tsx", "src/components/Batteries.tsx", "src/components/Brakes.tsx", "src/components/BatteriesSelector3.tsx", "src/components/BatteriesSelector2.tsx", "src/components/car_wash.tsx", "src/components/CarwashSelector.tsx", "src/components/CarwashSelector2.tsx", "src/components/CarwashSelector3.tsx", "src/components/EditableImage.tsx", "src/components/EngineOil.tsx", "src/components/EngineOilSelector.tsx", "src/components/EngineOilSelector2.tsx", "src/components/faisal.tsx", "src/components/Header.tsx", "src/components/Hero.tsx", "src/components/Home_Servic.tsx", "src/components/mhoamed.jsx", "src/components/Motion vector.tsx", "src/components/MotionVectorSelector1.tsx", "src/components/MotionVectorSelector2.tsx", "src/components/oill13.tsx", "src/components/SectionHeaders.tsx", "src/components/SectionHeaders2.tsx", "src/components/Tires.tsx", "src/components/TiresSelector1.tsx", "src/components/TiresSelector2.tsx", "src/components/TiresSelector3.tsx", "src/components/UseProfile.jsx", "src/components/UserForm.jsx", "src/components/UserTabs.jsx", "src/app/layout.tsx", "src/app/page.jsx", "src/app/BatteriesSelector/page.tsx", "src/app/BrakesSelector/page.tsx", "src/app/CarwashSelector/page.tsx", "src/app/engineoilSelector/page.tsx", "src/app/home/page.tsx", "src/app/login/page.jsx", "src/app/models/Category.jsx", "src/app/models/User.jsx", "src/app/models/UserInfo.jsx", "src/app/MotionVectorSelector/page.tsx", "src/app/Register/page.jsx", "src/app/theprices1/page.tsx", "src/app/theprices2/page.tsx", "src/app/theprices3/page.tsx", "src/app/theprices4/page.tsx", "src/app/theprices5/page.tsx", "src/app/theprices6/page.tsx", "src/app/TiresSelector/page.tsx", "src/app/api/Register/route.ts"],
+  "exclude": ["node_modules"]
+}
